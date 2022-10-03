@@ -1,0 +1,31 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url(./image/pexels-piccinng-3075993.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #00f3fb;
+    font-size: 60px;
+    letter-spacing: 7px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 5rem;
+}
+
+@media screen and (max-width: 480px) {
+    .clock{
+        padding: 3rem;
+        font-size: 42px;
+        }    
+}
